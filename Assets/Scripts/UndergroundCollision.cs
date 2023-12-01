@@ -31,8 +31,7 @@ public class UndergroundCollision : MonoBehaviour
 				if (Level.Instance.objectsInScene == 0)
 				{
 					Game.isGameover = true;
-					//AdsManager.showAdd = true;
-					AdManager.showAdd = true;
+					AdsManager.showAdd = true;
 					Level.Instance.PlayWinFx();
 					Invoke("NextLevel", 2);
 					
@@ -54,8 +53,9 @@ public class UndergroundCollision : MonoBehaviour
 					{
 						//restart level after shaking complet
 						//Level.Instance.RestartLevel ();
-						UIController.uIController.gameOverPanel.SetActive(true);
-						UIController.uIController.check = true;
+						//UIController.uIController.gameOverPanel.SetActive(true);
+						UIController.uIController.rewardedInterstitialPanel.SetActive(true);
+						//UIController.uIController.check = true;
 					});
 			}
 		}

@@ -1090,6 +1090,10 @@ PrefabInstance:
       propertyPath: progressFillImage
       value: 
       objectReference: {fileID: 2064456596}
+    - target: {fileID: 1924172519096778554, guid: a5eb5583e3f53b14fa44665f57aad019, type: 3}
+      propertyPath: rewardedInterstitialPanel
+      value: 
+      objectReference: {fileID: 1663434712}
     - target: {fileID: 1924172519096778555, guid: a5eb5583e3f53b14fa44665f57aad019, type: 3}
       propertyPath: m_Name
       value: UiManager
@@ -3282,6 +3286,14 @@ PrefabInstance:
     - target: {fileID: 2769729199943316827, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DisableSettingPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810406598702424318, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 242696430}
+    - target: {fileID: 2810406598702424318, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ReloadScene
       objectReference: {fileID: 0}
     - target: {fileID: 4105327388087609188, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
       propertyPath: m_IsActive
@@ -9552,6 +9564,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.28677505, y: 3.208743, z: 5.6886015}
   m_Center: {x: 0, y: 0.5071192, z: 0}
+--- !u!1 &1663434712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8643205218751894412, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
+  m_PrefabInstance: {fileID: 542464758}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1678332500 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4131936560547774, guid: 8ea76ea8cd502a2409f6eb58b95955e8, type: 3}

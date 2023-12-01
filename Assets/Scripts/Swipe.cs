@@ -22,7 +22,7 @@ public class Swipe : MonoBehaviour
                 {
                     // Horizontal swipe detected
                     hasSwiped = true;
-                    Debug.Log("Swipe detected!");
+                    //Debug.Log("Swipe detected!");
                 }
             }
         }

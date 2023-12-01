@@ -18,6 +18,7 @@ public class UIController : MonoBehaviour
     public GameObject filBar;
     public Text noThanks;
     public GameObject gameOverPanel;
+    public GameObject rewardedInterstitialPanel;
     public static UIController uIController;
     public Image fillBarImage;
     public Animator anim;
@@ -44,6 +45,7 @@ public class UIController : MonoBehaviour
         startTime = 15;
         currentTime = startTime;
         gameOverPanel.SetActive(false);
+        rewardedInterstitialPanel.SetActive(false);
     }
 
     private void Update()
@@ -65,7 +67,8 @@ public class UIController : MonoBehaviour
         }
         if (Magnet.instance.isGameOver)
         {
-            gameOverPanel.SetActive(true);
+            //gameOverPanel.SetActive(true);
+            rewardedInterstitialPanel.SetActive(true);
             check=true;
         }
     }
@@ -85,15 +88,16 @@ public class UIController : MonoBehaviour
 
     public void ResumeGame()
     {
-        if (AdManager.i.ShowRewardedAd())
-        {
+        //if (AdManager.i.ShowRewardedAd())
+        //{
             currentTime = 15;
             check = false;
             fillBarImage.fillAmount = 1f;
-            gameOverPanel.SetActive(false);
+            //gameOverPanel.SetActive(false);
+            rewardedInterstitialPanel.SetActive(false);
             Game.isGameover = false;
             anim.SetBool("isSad", false);
-        }
+        //}
     }
 
     public void VibrationON()

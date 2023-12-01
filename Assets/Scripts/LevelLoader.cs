@@ -40,13 +40,27 @@ public class LevelLoader : MonoBehaviour
         else
         {
             swipePanel.SetActive(false);
-            AdManager.i.RequestBanner();
         }
-        if (AdManager.showAdd)
-        {
-            AdManager.i.ShowInterstitial();
-        }
+        
+        //if(AdManager.i != null)
+        //{
+        //    if (AdManager.showAdd)
+        //    {
+        //        AdManager.i.ShowInterstitial();
+        //        Invoke("banner", 1f);
+        //    }
+        //    else
+        //    {
+        //        AdManager.showAdd = true;
+        //    }
+        //}
+        
     }
+
+    //void banner()
+    //{
+    //    AdManager.i.RequestBanner();
+    //}
 
     
     private void Update()
@@ -62,7 +76,7 @@ public class LevelLoader : MonoBehaviour
             {
                 swipePanel.SetActive(false);
                 holeMovement.enabled = true;
-                Debug.Log("User clicked or touched the screen!");
+                //Debug.Log("User clicked or touched the screen!");
             }
             isPressed = false;
             touched = true;

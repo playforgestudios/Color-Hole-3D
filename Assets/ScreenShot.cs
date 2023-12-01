@@ -49,6 +49,6 @@ public class ScreenshotManager : MonoBehaviour
         // Save the screenshot to a file
         System.IO.File.WriteAllBytes(fileName, screenshotBytes);
 
-        Debug.Log("Screenshot saved to: " + fileName);
+        //Debug.Log("Screenshot saved to: " + fileName);
     }
 }

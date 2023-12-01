@@ -967,6 +967,10 @@ PrefabInstance:
       propertyPath: progressFillImage
       value: 
       objectReference: {fileID: 2064456596}
+    - target: {fileID: 1924172519096778554, guid: a5eb5583e3f53b14fa44665f57aad019, type: 3}
+      propertyPath: rewardedInterstitialPanel
+      value: 
+      objectReference: {fileID: 1833454167}
     - target: {fileID: 1924172519096778555, guid: a5eb5583e3f53b14fa44665f57aad019, type: 3}
       propertyPath: m_Name
       value: UiManager
@@ -2578,6 +2582,14 @@ PrefabInstance:
     - target: {fileID: 2769729199943316827, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DisableSettingPanel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810406598702424318, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 242696430}
+    - target: {fileID: 2810406598702424318, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ReloadScene
       objectReference: {fileID: 0}
     - target: {fileID: 8319224594397838296, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
       propertyPath: m_IsActive
@@ -4708,7 +4720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5410043472950627608, guid: b5a9d51830b319a47ac6e1a13468b456, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5148,7 +5160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2103722801354189543, guid: 0981c1230f85fb541a78c847bdf18a6b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8319468333474803957, guid: 0981c1230f85fb541a78c847bdf18a6b, type: 3}
       propertyPath: swipePanel
@@ -14315,6 +14327,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4131936560547774, guid: 44d52adbd29e7774d928eb3fe8941b91, type: 3}
   m_PrefabInstance: {fileID: 1820467571}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1833454167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8643205218751894412, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
+  m_PrefabInstance: {fileID: 542464758}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1849188576
 PrefabInstance:

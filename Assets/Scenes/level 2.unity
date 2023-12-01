@@ -7428,6 +7428,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DisableSettingPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 2810406598702424318, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1450830905}
+    - target: {fileID: 2810406598702424318, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ReloadScene
+      objectReference: {fileID: 0}
     - target: {fileID: 4105327388087609188, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -9684,6 +9692,10 @@ PrefabInstance:
       propertyPath: progressFillImage
       value: 
       objectReference: {fileID: 1540191490}
+    - target: {fileID: 1924172519096778554, guid: a5eb5583e3f53b14fa44665f57aad019, type: 3}
+      propertyPath: rewardedInterstitialPanel
+      value: 
+      objectReference: {fileID: 1537844331}
     - target: {fileID: 1924172519096778555, guid: a5eb5583e3f53b14fa44665f57aad019, type: 3}
       propertyPath: m_Name
       value: UiManager
@@ -10138,6 +10150,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4131936560547774, guid: 8ea76ea8cd502a2409f6eb58b95955e8, type: 3}
   m_PrefabInstance: {fileID: 1534027728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1537844331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8643205218751894412, guid: 067457a926ece694dabd38800fa0fb5e, type: 3}
+  m_PrefabInstance: {fileID: 1086541668}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1540191490 stripped
 MonoBehaviour:
